@@ -10,7 +10,7 @@ Propeller Front-End Build Test
 - I am only familiar with JSON so having to dynamically populate the accordion was new to me. I finally learned how to do it which was quite fun!
 
 # Separate files
-I thought that using separate files would be a much better route to take. Adding all of HTML, JS script and CSS script into one file would be completely 
+I thought that using separate files would be a much better route to take. Adding all of HTML, JS script and CSS script into one file would be annoying if someone new was to look over the code and understand it.
 
 # W3C Markup Validation Service 
 I ran the HTML code through the service and found no errors or warnings. 
