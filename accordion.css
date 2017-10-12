@@ -1,0 +1,37 @@
+button.section {
+	background-color: rgb(158, 56, 176);
+	color: white;
+	padding: 25px;
+	width: 50%;
+	text-align: left;
+	font-size: 25px;
+	transition: 0.4s;
+	font-weight: bold;
+	box-shadow: 0px 5px 0px #888888;
+}
+
+button.section.active, button.section:hover {
+  background-color: rgb(104, 68, 183);
+}
+
+button.section:after {
+	content: '\2228';
+	font-size: 25px;
+	color: white;
+	float: right;
+	font-weight: bold;
+}
+
+button.section.active:after {
+	content: '\2227';
+}
+
+div.panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	width: 47%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(235, 235, 235);
+}
